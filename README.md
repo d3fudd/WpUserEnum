@@ -5,9 +5,10 @@ Para ello aplico fuerza bruta con un diccionario (que puede ser cualquiera; todo
 ## Instalación y uso ⚡
 ```bash
 $ git clone https://github.com/sha-16/wp-user-enum.git
+$ pip install pwntools
 $ cd wp-user-enume/
 $ chmod +x wp-user-enum.py
-$ ./wp-user-enum.py
+$ python3 wp-user-enum.py wordlist.txt http://10.10.183.26/wp-login.php
 ```
 
 ## Ejecución 💥
